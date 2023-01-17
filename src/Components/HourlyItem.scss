@@ -1,0 +1,28 @@
+@import '../variables.scss';
+.hourly__item {
+    
+    h3 {
+        font-size: 36px;
+        font-weight: 300;
+    }
+    h4 {
+        font-size: $fz32;
+        font-weight: 300;
+    }
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        width: 100%;
+
+    }
+    p {
+        font-size: 45px;
+        font-weight: 300; 
+    }
+    img {
+        width: 99px;
+        height: 96px;
+    }
+}

@@ -1,0 +1,47 @@
+@import '../variables.scss';
+
+header {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    img {
+        width: 70px;
+        height: 70px;
+    }
+    p {
+        font-family: 'Kranky', sans-serif;
+        font-size: 33px;
+        flex-grow: 1;
+        align-self: center;
+        margin-left: 15px;
+    }
+    input {
+        background-color: $transparent-color;
+        border: $white-border;
+        border-radius: 50px;
+        height: 45px;
+        width: 300px;
+        font-size: 24px;
+        padding-left: 20px;
+        margin-right: 20px;
+        color: #fff;
+    }
+    ::placeholder {
+        color: #fff;
+        opacity: 50%;
+    }
+    button {
+        height: 45px;
+        width: 130px;
+        background-color: $transparent-color;
+        border: $white-border;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        &:hover {
+            background-color: #d9d9d950;
+        }
+    }
+}

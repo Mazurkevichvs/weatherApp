@@ -1,0 +1,16 @@
+@import '../variables.scss';
+.weather__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 30%;
+}
+
+.desc__title {
+    font-size: $fz60;
+}
+.desc__subtitle {
+    font-size: $fz32;
+    font-weight: 300;
+}

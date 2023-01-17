@@ -1,0 +1,85 @@
+@import '../variables.scss';
+
+.main {
+    margin-top: 50px;
+    
+    .forecast__top {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+    h2 {
+        font-size: $fz32;
+    }
+}
+
+.main__weather {
+    display: flex;
+    font-weight: 200;
+    img {
+        width: 256px;
+        height: 256px;
+    }
+}
+
+.main__left {
+    padding-right: 100px;
+    border-right: 1px solid white;
+}
+
+.main__right {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.main__weather__deg {
+    margin-left: 45px;
+}
+
+.deg__title {
+    font-size: 200px;
+    line-height: 170px;
+}
+.deg__subtitle {
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.forecast__bottom {
+    margin-top: 40px;
+}
+
+.forecast__header {
+    display: flex;
+    border-bottom: 1px solid white;
+    font-size: 36px;
+    
+    .hourly {
+        margin-left: 40px;
+        opacity: 50%;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+    .daily {
+        margin-left: 40px;
+        opacity: 50%;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+    .active {
+        border-bottom: 4px solid #fff;
+        opacity: 100%;
+    }
+}
+
+.forecast__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
