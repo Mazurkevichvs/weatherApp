@@ -25,15 +25,25 @@ function App() {
     .then(res => res.json())
     .then(data => {
       setCurrentWeather(data)
-      console.log(currentWeather)
+      
     })
-  },[])
+    .catch(err => console.error(err))
+
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city ? city : 'Gdansk'}&appid=c84c59d4d104a2550f66e46573ece2ed&units=metric&lang=en`)
+    .then(res => res.json())
+    .then(data => {
+      setDailyWeather(data)
+      console.log(data) 
+    })
+    .catch(err => console.error(err))
+
+  },[city])
 
   return (
     <div className="App">
       <div className={currentWeather ? "container" : 'container  loading'}>
       <Header getCityName={getCityName}/>
-      {currentWeather && <Main time={time} city={city} currentWeather={currentWeather}/>}
+      {currentWeather && <Main time={time} currentWeather={currentWeather} dailyWeather={dailyWeather}/>}
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 @import '../variables.scss';
 .daily__item {
-    h3 {
+    h3, p {
         font-size: 26px;
         font-weight: 300;
     }
@@ -15,9 +15,9 @@
         margin-top: 5px;
         width: 100%;
     }
-    img {
-        max-width: 118px;
-        max-height: 115px;
+    img {   
+        width: 118px;
+        height: 115px;
     }
     .cold {
         color: #b2b2b2

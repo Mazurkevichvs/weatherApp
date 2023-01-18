@@ -9,6 +9,9 @@
 
 .desc__title {
     font-size: $fz60;
+    .prefix {
+        font-size: 40px;
+    }
 }
 .desc__subtitle {
     font-size: $fz32;
