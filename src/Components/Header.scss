@@ -45,3 +45,11 @@ header {
         }
     }
 }
+
+.incorrect-input {
+    border: 1px solid red;
+    
+    &::placeholder {
+        color: red;
+    }
+}

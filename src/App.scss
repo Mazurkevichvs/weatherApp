@@ -1,7 +1,12 @@
 .container {
     padding: 0 100px;
-}
-
-.loading {
-   filter: blur(15px) 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    svg {
+        display: block;
+        margin: auto;
+        flex:1;
+    }
 }
