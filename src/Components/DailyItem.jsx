@@ -5,7 +5,7 @@ const DailyItem = ({ timestamp, icon, weather, desc }) => {
   return (
     <div className="forecast__item daily__item">
       <h3>{day}</h3>
-      <img src={`/${icon}.svg`} alt="weather description" />
+      <img src={`${icon}.svg`} alt="weather description" />
       <p>{desc}</p>
       <div>
         <h4>{weather.temp.toFixed(0)}°/</h4>

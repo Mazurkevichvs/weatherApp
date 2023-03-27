@@ -12,7 +12,7 @@ const Main = ({ time, currentWeather, dailyWeather }) => {
           <h1>{currentWeather && `${currentWeather.name}, ${currentWeather.sys.country}`}</h1>
           <h3>{time}</h3>
           <div className="main__weather">
-            <img src={`/${currentWeather.weather[0].icon}.svg`} alt="cloudy" />
+            <img src={`${currentWeather.weather[0].icon}.svg`} alt="cloudy" />
             <div className="main__weather__deg">
               <p className="deg__title">{currentWeather.main.temp.toFixed(0)}°</p>
               <p className="deg__subtitle">{currentWeather.weather[0].main}</p>

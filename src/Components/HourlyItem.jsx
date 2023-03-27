@@ -7,7 +7,7 @@ const HourlyItem = ({ timestamp, icon, weather }) => {
     <div className="forecast__item hourly__item">
       <h3>{time}:00</h3>
       <div>
-        <img src={`/${icon}.svg`} alt="weather description" />
+        <img src={`${icon}.svg`} alt="weather description" />
         <p>{weather.temp.toFixed(0)}°</p>
       </div>
       <div>

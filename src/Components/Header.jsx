@@ -10,7 +10,7 @@ const Header = ({ getCityName, incorrectInput }) => {
 
   return (
     <header>
-      <img src="/icon1.png" alt="weather app" />
+      <img src="icon1.png" alt="weather app" />
       <p>Weather App</p>
       <form onSubmit={handleFetch}>
         <input
