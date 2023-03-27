@@ -1,12 +1,12 @@
-import React from 'react'
-import './Error.scss'
+import React from 'react';
+import './Error.scss';
 
-const Error = ({error}) => {
+const Error = ({ error }) => {
   return (
-    <div className='error'>
-        <p>{error}</p>
+    <div className="error">
+      <p>{error}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;

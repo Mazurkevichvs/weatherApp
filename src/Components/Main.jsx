@@ -33,7 +33,7 @@ const Main = ({ time, currentWeather, dailyWeather }) => {
           <WeatherDescription
             number={currentWeather.wind.speed.toFixed(0)}
             symbol={'km/h'}
-            desc={'High'}
+            desc={'Wind'}
           />
           <WeatherDescription
             number={currentWeather.main.temp_min.toFixed(0)}
@@ -61,7 +61,7 @@ const Main = ({ time, currentWeather, dailyWeather }) => {
             Daily
           </div>
         </div>
-        <ForecastList dailyWeather={dailyWeather} active={active}/>
+        <ForecastList dailyWeather={dailyWeather} active={active} />
       </section>
     </main>
   );

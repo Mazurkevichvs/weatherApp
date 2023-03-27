@@ -1,8 +1,8 @@
 import React from 'react';
 import './HourlyItem.scss';
 
-const HourlyItem = ({timestamp, icon, weather}) => {
-  const time = new Date(timestamp*1000).getHours()
+const HourlyItem = ({ timestamp, icon, weather }) => {
+  const time = new Date(timestamp * 1000).getHours();
   return (
     <div className="forecast__item hourly__item">
       <h3>{time}:00</h3>
