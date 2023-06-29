@@ -10,10 +10,22 @@
 .desc__title {
     font-size: $fz70;
     .prefix {
-        font-size: 40px;
+        font-size: $fz40;
     }
 }
 .desc__subtitle {
     font-size: $fz40;
     font-weight: 300;
+}
+
+@media (max-width: 1024px) {    
+    .desc__title {
+        font-size: $fz40;
+        .prefix {
+            font-size: 30px;
+        }
+    }
+    .desc__subtitle {
+        font-size: 26px;
+    }
 }

@@ -156,7 +156,7 @@
       }
       
       .forecast__bottom {
-        margin-top: 10px;
+        margin-top: 40px;
       }
       .forecast__header {      
           font-size: 26px;
@@ -167,4 +167,8 @@
           margin-left: 20px;
         }
       }
+}
+
+@media (max-width: 768px) {
+  
 }

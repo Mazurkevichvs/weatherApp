@@ -9,3 +9,10 @@
     align-items: center;
     background-color: $transparent-color;
 }
+
+@media (max-width: 1024px) {
+    .forecast__item {
+        margin-top: 30px;
+        padding: 10px 8px;
+    } 
+}

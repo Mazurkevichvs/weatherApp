@@ -53,3 +53,29 @@ header {
         color: red;
     }
 }
+
+@media (max-width: 1024px) {
+    header {
+        padding-top: 15px; 
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        p {
+            font-size: 26px;
+            margin-left: 10px;
+        }
+        input {
+            height: 30px;
+            width: 200px;
+            font-size: 18px;
+            padding-left: 10px;
+            margin-right: 10px;
+        }
+        button {
+            height: 30px;
+            width: 100px;
+            font-size: 18px;
+        }
+    }
+}
