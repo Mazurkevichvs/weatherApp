@@ -29,3 +29,15 @@
         font-size: 26px;
     }
 }
+
+@media (max-width: 425px) {
+    .desc__title {
+        font-size: 30px;
+        .prefix {
+            font-size: 20px;
+        }
+    }
+    .desc__subtitle {
+        font-size: 20px;
+    }
+}

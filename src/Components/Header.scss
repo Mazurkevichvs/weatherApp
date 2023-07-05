@@ -79,3 +79,21 @@ header {
         }
     }
 }
+
+@media (max-width: 425px) {
+    header { 
+        display: flex;
+        flex-direction: column;
+        p {
+            font-size: 26px;
+            margin-left: 0px;
+            margin-bottom: 10px;
+        }  
+        input {
+            width: 150px;
+        }
+        button {
+            width: 80px;
+        }   
+    }
+}

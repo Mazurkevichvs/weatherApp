@@ -16,3 +16,13 @@
         padding: 10px 8px;
     } 
 }
+
+@media (max-width: 425px) {
+    .forecast__item {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 20px;
+        padding: 5px 5px;
+    } 
+
+}
